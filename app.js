@@ -112,7 +112,7 @@ app.use(function(err, req, res, next) {
 
 });
 
-var port = process.env.PORT || 3000;
+var port = 3080;
 var server = require('http').Server(app);
 
 server.listen(port);
